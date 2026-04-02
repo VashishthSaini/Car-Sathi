@@ -22,6 +22,10 @@ await connectDB();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Server Working ✅");
+});
+
 // Routes
 app.use("/api/user", userRouter);
 app.use("/api/owner", ownerRouter);
