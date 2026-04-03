@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Title";
+import Title from ".owner/Title";
 import { assets } from "../assets/assets";
 import { motion } from "motion/react";
 
